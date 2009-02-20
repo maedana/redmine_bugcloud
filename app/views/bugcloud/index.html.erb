@@ -3,7 +3,7 @@
 <% end %>
 
 <h2><%= l(:bugcloud) %></h2>
-<ul class="tagCloud12">
+<ul class="bugcloud">
 <% @issues.each do |issue| -%>
   <li class="level<%= h issue.priority.position %>">
     <%= link_to h(issue.subject), :controller => 'issues', :action => 'show', :id => issue %>

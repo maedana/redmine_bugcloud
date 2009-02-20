@@ -1,54 +1,49 @@
-ul.tagCloud12 {
+ul.bugcloud {
   font-family:Arial,Helvetica,sans-serif;
   font-size:13px;
   padding:0.5em 10px;
 }
-ul.tagCloud12 li {
+ul.bugcloud li {
   display:inline;
   font-size:100%;
   margin:0;
   padding:0;
 }
-ul.tagCloud12 li a {
+ul.bugcloud li a {
   background-color:#FFFFFF;
   color:#FFFFFF;
   padding:0 5px;
   position:relative;
   text-decoration:none;
 }
-ul.tagCloud12 li.level1 a {
+ul.bugcloud li.level5 a {
   background-color:#6897AF;
-  font-size:167%;
-  z-index:6;
-}
-ul.tagCloud12 li.level2 a {
-  background-color:#7EA6BA;
-  font-size:136%;
-  top:5px;
+  font-size:200%;
   z-index:5;
 }
-ul.tagCloud12 li.level3 a {
-  background-color:#95B6C7;
-  font-size:114%;
+ul.bugcloud li.level4 a {
+  background-color:#7EA6BA;
+  font-size:150%;
+  top:5px;
   z-index:4;
 }
-ul.tagCloud12 li.level4 a {
+ul.bugcloud li.level3 a {
+  background-color:#95B6C7;
+  font-size:125%;
+  z-index:3;
+}
+ul.bugcloud li.level2 a {
   background-color:#ACC6D3;
   font-size:100%;
   top:5px;
-  z-index:3;
-}
-ul.tagCloud12 li.level5 a {
-  background-color:#C3D6DF;
-  font-size:85%;
   z-index:2;
 }
-ul.tagCloud12 li.level6 a {
-  background-color:#D9E5EB;
-  font-size:70%;
+ul.bugcloud li.level1 a {
+  background-color:#C3D6DF;
+  font-size:85%;
   z-index:1;
 }
-ul.tagCloud12 li a:hover {
+ul.bugcloud li a:hover {
   background-color:#5A89A1;
   z-index:10;
 }
