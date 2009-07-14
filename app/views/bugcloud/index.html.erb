@@ -7,7 +7,7 @@
 <% @issues.each do |issue| -%>
   <% unless issue.closed? -%>
   <li class="level<%= h issue.priority.position %>">
-    <%= link_to h(issue.subject), :controller => 'issues', :action => 'show', :id => issue %>
+  <%= link_to h("##{issue.id} #{issue.subject}"), :controller => 'issues', :action => 'show', :id => issue %>
   </li>
   <% end -%>
 <% end -%>
