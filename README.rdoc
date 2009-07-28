@@ -12,7 +12,7 @@ For the complete changelog see the <tt>CHANGELOG</tt>-file in the Bugcloud plugi
 
 ==Latest release
 
-The currently available, latest release of the plugin is version <b>0.0.2</b>.
+The currently available, latest release of the plugin is version <b>0.0.2.1</b>.
 
 ==Description
 
