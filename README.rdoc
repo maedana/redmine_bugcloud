@@ -1,3 +1,72 @@
-= bugcloud
+=Bugcloud plugin
 
-Description goes here
+This plugin visualizes the issues of a project as an issue cloud.
+
+==Author
+
+* Maedana
+
+==Changelog
+
+For the complete changelog see the <tt>CHANGELOG</tt>-file in the Bugcloud plugin directory.
+
+==Latest release
+
+The currently available, latest release of the plugin is version <b>0.0.2</b>.
+
+==Description
+
+The Bugcloud plugin visualizes the issues of a project as an issue cloud which is reachable through a tab within Redmine projects which haves this plugin enabled.
+
+==Compatibility
+
+This plugin is compatible with Redmine 0.8.x as well as with the current Redmine trunk.
+
+==Obtaining 
+
+<i>URL of the GitHub repository: http://github.com/maedana/redmine_bugcloud/tree/master</i>
+
+The source of this plugin can be "cloned" from the GitHub-repo using:
+
+<tt>$ cd {RAILS_ROOT}/vendor/plugins && git clone git://github.com/maedana/redmine_bugcloud.git</tt>
+
+==Installation
+
+- Download the plugin from the available source (see http://www.redmine.org/wiki/redmine/PluginBugcloud#Obtaining)
+- Install the plugin as described at: http://www.redmine.org/wiki/redmine/Plugins (this plugin does not require a plugin database migration)
+- Restart Redmine
+
+==Setup
+
+After you have completed the installation of the plugin you can select which projects will actually be able to use the feature brought by the plugin by activating the plugin's module in the "project settings":
+
+In the preferred Redmine project, go to the "Project settings":
+
+- On the "Modules" tab: enable the plugin-module by checking "Bugcloud".
+
+After that, a new item named "Bugcloud" will show up in the project menu. Click on this item to see the project's bugcloud.
+
+==Upgrading
+
+- Backup the currently deployed Bugcloud plugin (<tt>cp -r /vendor/plugins/redmine_bugcloud /vendor/plugins/redmine_bugcloud-backup</tt>)
+- Reinstall the updated plugin:
+  * using the command: <tt>git pull</tt>
+- Restart your Redmine
+
+==Uninstalling
+
+- Remove the directory <i>"redmine_bugcloud"</i> from the plugin-directory <i>"../vendor/plugins"</i>
+- Restart Redmine
+
+==Licensing
+
+This plugin is open-source and licensed under the "GNU General Public License v2" (GPL, http://www.gnu.org/licenses/old-licenses/gpl-2.0.html). See the included <tt>GPL.txt</tt> file for details.
+
+- (C)2009, Maedana (http://d.hatena.ne.jp/maedana/)
+
+==Support
+
+If you would like to report a bug or request a new feature you can open a new issue at the issue-tracking section of the plugins' GitHub site: http://github.com/maedana/redmine_bugcloud/issues.
+You can also post about the plugin in the dedicated plugin-section of the "Redmine forums":http://www.redmine.org/projects/redmine/boards/3.
+
+As an alternative you can also join the <tt>#redmine</tt> channel on the "freenode IRC network" (http://freenode.net/irc_servers.shtml) to see if there is anyone who can provide some support.

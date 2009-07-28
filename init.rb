@@ -2,8 +2,8 @@ require 'redmine'
 
 Redmine::Plugin.register :redmine_bugcloud do
   name 'Redmine Bugcloud plugin'
-  author 'maedana'
-  description 'This is a plugin for Redmine. The view that displays the ticket like the tag cloud is added. '
+  author 'Maedana'
+  description 'This Redmine plugin visualizes the issues of a project as an issue cloud. '
   version '0.0.2'
 
   # Configuring permissions for plugin's controllers.
