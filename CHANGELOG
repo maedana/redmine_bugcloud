@@ -1,0 +1,8 @@
+0.0.2 (2009-07-13):
+    * Feature: Display the issue number in the bugcloud
+    * Feature: Make the plugin an individual project module
+    * Defect: Make the plugin compatible with Rails development mode
+    * Defect: Fix Redmine trunk compatibility (I18N)
+
+0.0.1 (2009-02-20):
+    - Initial public release
