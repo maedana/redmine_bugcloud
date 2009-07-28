@@ -4,7 +4,7 @@ Redmine::Plugin.register :redmine_bugcloud do
   name 'Redmine Bugcloud plugin'
   author 'Maedana'
   description 'This Redmine plugin visualizes the issues of a project as an issue cloud. '
-  version '0.0.2'
+  version '0.0.2.1'
 
   # Configuring permissions for plugin's controllers.
   project_module :bugcloud do
